@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dream Wheels - Interaktywna</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 data-aos="fade-down">Dream Wheels</h1>
+        <nav>
+            <a href="#about">O nas</a>
+            <a href="#services">Usługi</a>
+            <a href="#gallery">Galeria</a>
+        </nav>
+    </header>
+
+    <section id="about" data-aos="fade-up">
+        <h2>Kim jesteśmy?</h2>
+        <p>Specjalizujemy się w mobilnej renowacji felg aluminiowych...</p>
+    </section>
+
+    <section id="services" data-aos="fade-right">
+        <h2>Nasze usługi</h2>
+        <ul>
+            <li>Polerowanie</li>
+            <li>Malowanie</li>
+            <li>Spawanie</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2 data-aos="zoom-in">Galeria</h2>
+        <div class="gallery">
+            <img src="img1.jpg" alt="Felga" data-aos="zoom-in">
+            <img src="img2.jpg" alt="Felga" data-aos="zoom-in" data-aos-delay="200">
+            <img src="img3.jpg" alt="Felga" data-aos="zoom-in" data-aos-delay="400">
+        </div>
+    </section>
+
+    <footer data-aos="fade-up">
+        <p>© 2025 Dream Wheels. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

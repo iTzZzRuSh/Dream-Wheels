@@ -23,6 +23,25 @@ nav a {
 section {
     padding: 4rem 2rem;
     text-align: center;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+section h2 {
+    color: #222;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
 }
 
 .gallery {
